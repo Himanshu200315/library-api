@@ -7,7 +7,6 @@ public class Book {
     private String author;
     private int year;
 
-    // Constructor
     public Book() {}
 
     public Book(Long id, String title, String author, int year) {
@@ -17,7 +16,6 @@ public class Book {
         this.year = year;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
